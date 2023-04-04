@@ -1,0 +1,261 @@
+[
+	{
+		"url": "https://sun9-58.userapi.com/impg/5ODiT5D75V0akNiex-QZf4XvNrH_Be73K84tng/QJU-6k7QcxE.jpg?size=92x194&quality=95&sign=2c99cd8f3e5564c16b8f7b3e0c55bb3b&type=album",
+		"title": "средство для мытья посуды Crystal",
+		"type": "мл",
+		"weight": "450 мл",
+		"barcode": "4604049097548",
+		"manufacturer": "Grifon",
+		"brand": "AOS",
+		"careType": [
+			"Уход за руками"
+		],
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+		"price": 48.5
+	},
+	{
+		"url": "https://ir.ozone.ru/s3/multimedia-7/wc250/6550835611.jpg",
+		"title": "Sensitive Color Active4 капсулы, жидкое моющее средство ",
+		"type": "г",
+		"weight": "15X28.8 г",
+		"barcode": "4604049097549",
+		"manufacturer": "Boyscout",
+		"brand": "Ariel",
+		"careType": [
+			"Уход за телом"
+		],
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+		"price": 100
+	},
+	{
+		"url": "https://sun9-2.userapi.com/impg/TM5kZ1VU-2Bogtolzpyh2_fveMsULHMgxOJr3g/Z9KSIAyUk_Y.jpg?size=178x218&quality=95&sign=aabacfaf8390d647fd7113418eaef1ff&type=album",
+		"title": "Порошок стиральный Автомат 100 пятен COMPACT",
+		"type": "г",
+		"weight": "1500 г",
+		"barcode": "4604049097550",
+		"manufacturer": "Булгари Грин",
+		"brand": "AOS",
+		"careType": [
+			"Уход за телом"
+		],
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+		"price": 60
+	},
+	{
+		"url": "https://anytos.ru/upload/iblock/ff0/ff018f41776343262b86c9740d080149/6832fa49876260bdcabf2f2a0a6de8bc.jpeg",
+		"title": "Ср-во для мытья посуды ",
+		"type": "мл",
+		"weight": "450 мл",
+		"barcode": "4604049097551",
+		"manufacturer": "Нэфис",
+		"brand": "AOS",
+		"careType": [
+			"Уход за руками"
+		],
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+		"price": 53
+	},
+	{
+		"url": "https://ir.ozone.ru/s3/multimedia-a/wc250/6367218622.jpg",
+		"title": "Экологичное туалетное мыло. Литсея и бергамот",
+		"type": "г",
+		"weight": "90г",
+		"barcode": "4604049097552",
+		"manufacturer": "Нэфис",
+		"brand": "BioMio BIO-SOAP",
+		"careType": [
+			"Уход за лицом"
+		],
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+		"price": 40
+	},
+	{
+		"url": "https://sun9-21.userapi.com/impg/umyWvC_iMXT43DArxtH-abMfKGYoc3UWPDlv3w/ATic7_YBMfY.jpg?size=281x191&quality=95&sign=d9107fc7aadf4eb676417f0f9009ca9f&type=album",
+		"title": "Экологичное туалетное мыло. Литсея и бергамот",
+		"type": "",
+		"weight": "90г",
+		"barcode": "4604049097553",
+		"manufacturer": "Нэфис",
+		"brand": "BioMio BIO-SOAP",
+		"careType": [
+			"Уход за телом",
+			"Уход за лицом"
+		],
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+		"price": 35
+	},
+	{
+		"url": "https://sun9-18.userapi.com/impg/kRM2DjOkSvGIS2KhDjnnCC4TlkkYskpeiHjX1A/wcrOfvfrr9w.jpg?size=92x194&quality=95&sign=1560842516f3b043d1fc9b94fd9a78c3&type=album",
+		"title": "Ср-во для мытья посуды Апельсин+мята",
+		"type": "мл",
+		"weight": "450 мл",
+		"barcode": "4604049097554",
+		"manufacturer": "Булгари Грин",
+		"brand": "Sorti",
+		"careType": [
+			"Уход за руками",
+			"Уход за ногами"
+		],
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+		"price": 48
+	},
+	{
+		"url": "https://ir.ozone.ru/s3/multimedia-7/wc250/6326620267.jpg",
+		"title": " Натурэль Интенсивное увлажнение туалетное мыло",
+		"type": "мл",
+		"weight": "450 мл",
+		"barcode": "4604049097555",
+		"manufacturer": "Булгари Грин",
+		"brand": "Palmolive",
+		"careType": [
+			"Уход за руками",
+			"Уход за ногами"
+		],
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+		"price": 120
+	},
+	{
+		"url": "https://ir.ozone.ru/s3/multimedia-d/wc250/6284375137.jpg",
+		"title": "Жидкое мыло для рук и тела",
+		"type": "мл",
+		"weight": "380мл ",
+		"barcode": "4604049097556",
+		"manufacturer": "Boyscout",
+		"brand": "SYNERGETIC",
+		"careType": [
+			"Уход за телом",
+			"Уход за руками"
+		],
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+		"price": 90
+	},
+	{
+		"url": "https://ir.ozone.ru/s3/multimedia-m/wc250/6391639666.jpg",
+		"title": "Жидкое мыло ",
+		"type": "мл",
+		"weight": "300 мл х 2",
+		"barcode": "4604049097557",
+		"manufacturer": "Boyscout",
+		"brand": "BioMio Bio-Soap",
+		"careType": [
+			"Уход за телом",
+			"Уход за руками"
+		],
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+		"price": 60
+	},
+	{
+		"url": "https://ir.ozone.ru/s3/multimedia-3/wc250/6229958967.jpg",
+		"title": "Крем-воск для ног, от трещин и сухости  ",
+		"type": "г",
+		"weight": "15X28.8 г",
+		"barcode": "4604049097559",
+		"manufacturer": "Boyscout",
+		"brand": "DNC",
+		"careType": [
+			"Уход за ногами"
+		],
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+		"price": 100
+	},
+	{
+		"url": "https://sun9-62.userapi.com/impg/f1bb7_OvWr4G6_H8AEZP33wlnXWLTe6I5CHWBA/I7-lYUkO74M.jpg?size=281x192&quality=95&sign=2f21fedca0b8980cb8625917f73b4c3d&type=album",
+		"title": " Автмат Гель СМС жидкое в растворимых капсулах Liquid Capsules Горный родник ",
+		"type": "мл",
+		"weight": "80 мл",
+		"barcode": "4604049097558",
+		"manufacturer": "Grifon",
+		"brand": "AOS",
+		"careType": [
+			"Уход за ногами"
+		],
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+		"price": 75
+	},
+	{
+		"url": "https://ir.ozone.ru/s3/multimedia-m/wc250/6391639666.jpg",
+		"title": "Жидкое мыло с алое-вера ",
+		"type": "мл",
+		"weight": "300 мл х 2",
+		"barcode": "4604049097561",
+		"manufacturer": "Boyscout",
+		"brand": "BioMio Bio-Soap",
+		"careType": [
+			"Уход за телом",
+			"Уход за руками"
+		],
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+		"price": 250
+	},
+	{
+		"url": "https://ir.ozone.ru/s3/multimedia-3/wc250/6229958967.jpg",
+		"title": "Крем для ног  ",
+		"type": "г",
+		"weight": "15X28.8 г",
+		"barcode": "46040492097559",
+		"manufacturer": "Boyscout",
+		"brand": "DNC",
+		"careType": [
+			"Уход за ногами"
+		],
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+		"price": 95
+	},
+	{
+		"url": "https://ir.ozone.ru/s3/multimedia-t/wc250/6381093869.jpg",
+		"title": " Жидкое синтетическое моющее средство ",
+		"type": "г",
+		"weight": "23шт*25.2г",
+		"barcode": "4604049097563",
+		"manufacturer": "Grifon",
+		"brand": "Tide",
+		"careType": [
+			"Уход за ногами"
+		],
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+		"price": 99
+	},
+	{
+		"url": "https://ir.ozone.ru/s3/multimedia-u/wc250/6359568678.jpg",
+		"title": "Увлажняющий шампунь сухие волосы, профессиональная косметика ",
+		"type": "мл",
+		"weight": "400 мл",
+		"barcode": "4604049097564",
+		"manufacturer": "Boyscout",
+		"brand": "INSIGHT",
+		"careType": [
+			"Уход за волосами"
+		],
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+		"price": 350
+	},
+	{
+		"url": "https://ir.ozone.ru/s3/multimedia-y/wc250/6402153334.jpg",
+		"title": "Кондиционер для волос увлажняющий для всех типов ",
+		"type": "мл",
+		"weight": "100 мл",
+		"barcode": "4604049097565",
+		"manufacturer": "Grifon",
+		"brand": "Lador ",
+		"careType": [
+			"Уход за волосами"
+		],
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+		"price": 320
+	},
+	{
+		"url": "https://ir.ozone.ru/s3/multimedia-z/wc250/6059052275.jpg",
+		"title": "Питательный крем-гель для ванны и душа ",
+		"type": "мл",
+		"weight": "100 мл",
+		"barcode": "4604049097566",
+		"manufacturer": "Нэфис",
+		"brand": "Genera Family Line ",
+		"careType": [
+			"Уход за волосами",
+			"Уход за телом"
+		],
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+		"price": 199
+	}
+]

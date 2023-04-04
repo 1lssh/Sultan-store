@@ -1,0 +1,221 @@
+.arrow-active {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.sidebar-title {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.card-description {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.card-description span {
+  font-size: 14px;
+  font-weight: 300;
+  color: #3F4E65;
+}
+
+.good-card {
+  height: 490px;
+  padding: 20px;
+  -webkit-box-shadow: 0px 14px 39px -11px rgba(0, 0, 0, 0.06);
+          box-shadow: 0px 14px 39px -11px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  background-color: #FFFFFF;
+}
+.good-card__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.good-card__img img {
+  max-width: 210px;
+}
+.good-card__weight {
+  font-size: 12px;
+  color: #3F4E65;
+  margin-bottom: 10px;
+}
+.good-card__weight-img {
+  margin-right: 8px;
+}
+.good-card__title {
+  margin-bottom: 10px;
+}
+.good-card__button button {
+  font-weight: 700;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 25px;
+  border: none;
+  background-color: #FFC85E;
+  border-radius: 80px;
+  cursor: pointer;
+}
+.good-card__button img {
+  margin-left: 5px;
+}
+
+.catalog__head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.catalog__title h1 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+.catalog__sort-title {
+  font-weight: 500;
+}
+.catalog__sort-select {
+  color: #3F4E65;
+  border: none;
+  margin-right: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.catalog__sort-select:focus {
+  border: none;
+}
+.catalog__sort-select option {
+  border: none;
+}
+.catalog__sort-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+.catalog__sort-option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 140px;
+  height: 70px;
+  padding: 15px;
+  margin-right: 10px;
+  text-align: center;
+  color: #3F4E65;
+  -webkit-box-shadow: 0px 15px 70px -11px rgba(43, 28, 1, 0.04);
+          box-shadow: 0px 15px 70px -11px rgba(43, 28, 1, 0.04);
+  background-color: white;
+}
+.catalog__main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 350px 10px 1fr;
+  grid-template-columns: 350px 1fr;
+  grid-gap: 10px;
+}
+.catalog__goods-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 10px 1fr 10px 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin-bottom: 60px;
+}
+.catalog__sidebar {
+  background-color: white;
+}
+.catalog__parameters {
+  max-width: 238px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  font-weight: 500;
+}
+.catalog__price {
+  margin-bottom: 30px;
+}
+.catalog__price-title {
+  font-size: 14px;
+  color: #3F4E65;
+  margin-bottom: 15px;
+}
+.catalog__price-input {
+  max-width: 100px;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 198, 80, 0.3)), color-stop(97.25%, rgba(254, 202, 110, 0.3)));
+  background: linear-gradient(90deg, rgba(255, 198, 80, 0.3) 0%, rgba(254, 202, 110, 0.3) 97.25%);
+  border-radius: 1000px;
+  border: none;
+  color: #3F4E65;
+  font-weight: 300;
+  font-size: 12px;
+  padding: 5px;
+  text-align: center;
+}
+.catalog__manufacturer-search {
+  margin-bottom: 15px;
+}
+.catalog__checkbox {
+  margin-bottom: 15px;
+}
+.catalog__checkbox input {
+  margin-right: 10px;
+}
+.catalog__checkbox label {
+  color: #3F4E65;
+  font-size: 14px;
+}
+.catalog__checkbox span {
+  color: #3F4E65;
+  font-size: 12px;
+}
+.catalog__show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+}
+.catalog__show-btn {
+  padding: 20px 50px;
+  margin-right: 10px;
+  background-color: #FFC85E;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  border: none;
+  border-radius: 79px;
+  cursor: pointer;
+}
+.catalog__delete-btn {
+  background-color: #FFC85E;
+  border: none;
+  border-radius: 100%;
+  padding: 17px 19px;
+  cursor: pointer;
+}
+.catalog__pagination {
+  margin-bottom: 70px;
+}
+.catalog__text {
+  font-size: 14px;
+  color: #3F4E65;
+}

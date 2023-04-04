@@ -1,0 +1,268 @@
+@import '../scss/header.scss';
+@import '../scss/catalog.scss';
+@import '../scss/productCardPage.scss';
+@import '../scss/basketPage.scss';
+@import '../scss/footer.scss';
+
+html {
+	overflow-y: overlay;
+}
+
+body {
+	font-family: 'Inter';
+}
+
+.container {
+	max-width: 1350px;
+	margin: 0 auto;
+	padding: 0px 10px;
+}
+
+.link {
+	text-decoration: none;
+	color: black;
+}
+
+
+.row-full {
+	background-color: #3F4E65;
+	opacity: 0.2;
+	width: 100vw;
+	position: relative;
+	margin-left: -50vw;
+	height: 1px;
+	left: 50%;
+	margin-bottom: 20px;
+
+}
+
+.item-count {
+	& button {
+		padding: 4px 14px;
+		background: linear-gradient(90deg, rgba(255, 198, 80, 0.3) 0%, rgba(254, 202, 110, 0.3) 97.25%);
+		border-radius: 1000px;
+		border: none;
+	}
+
+	& span {
+		margin: 0px 15px;
+	}
+}
+
+.price-list {
+	&-sm {
+
+		& button {
+			padding: 12px 30px;
+			font-weight: 700;
+			font-size: 12px;
+			line-height: 17px;
+			color: #FFFFFF;
+			background: #FFC85E;
+			border-radius: 79px;
+			border: none;
+			cursor: pointer;
+		}
+
+		& img {
+			margin-left: 13px;
+		}
+	}
+
+	& button {
+		padding: 20px 45px;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 17px;
+		color: #FFFFFF;
+		background: #FFC85E;
+		border-radius: 79px;
+		border: none;
+		cursor: pointer;
+	}
+
+	& img {
+		margin-left: 15px;
+	}
+}
+
+.vertical-line {
+	width: 0px;
+	height: 50px;
+	border: 1px dashed #3F4E65;
+	opacity: 0.1;
+
+	@media screen and (max-width: 1042px) {
+		display: none;
+	}
+
+	&-sm {
+		width: 0px;
+		height: 15px;
+		border: 1px dashed #3F4E65;
+		opacity: 0.1;
+		margin: 0px 10px;
+	}
+}
+
+.edit-confirm {
+	margin-top: 20px;
+	width: 30px;
+}
+
+.horizontal-line {
+	width: 100%;
+	height: 0;
+	border: 1px dashed #3F4E65;
+	opacity: 0.1;
+	margin-bottom: 50px;
+}
+
+.breadcrumb {
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+	margin-top: 45px;
+
+	@media screen and (max-width: 767px) {
+		display: none;
+	}
+
+	&__item {
+		font-weight: 300;
+		color: #3F4E65;
+		font-size: 14px;
+	}
+}
+
+.search-input {
+	max-width: 218px;
+	display: flex;
+	align-items: center;
+	height: 60px;
+	background-color: #EDEDED;
+	border-radius: 36px;
+	padding: 0px 10px;
+
+
+	& input {
+		max-width: 155px;
+		padding: 10px;
+		border: none;
+		background-color: #EDEDED;
+
+		&:focus {
+			outline: none;
+		}
+
+		&::placeholder {
+			font-family: 'Inter';
+		}
+	}
+
+	& button {
+		background: #FFC85E;
+		border-radius: 1000px;
+		border: none;
+		padding: 10px 13px;
+		cursor: pointer;
+	}
+}
+
+.delete-btn {
+	background-color: #FFC85E;
+	border: none;
+	border-radius: 100%;
+	padding: 17px 19px;
+	cursor: pointer;
+}
+
+
+
+
+
+//============================================================
+
+
+
+
+//==================================================================
+
+
+
+.pagination-container {
+	display: flex;
+	list-style-type: none;
+	justify-content: center;
+
+	@media screen and (max-width: 782px) {
+		padding: 0;
+	}
+
+	.pagination-item {
+		padding: 0 12px;
+		height: 32px;
+		text-align: center;
+		margin: auto 4px;
+		color: rgba(0, 0, 0, 0.87);
+		display: flex;
+		box-sizing: border-box;
+		align-items: center;
+		letter-spacing: 0.01071em;
+		border-radius: 16px;
+		line-height: 1.43;
+		font-size: 13px;
+		min-width: 32px;
+
+		&.dots:hover {
+			background-color: transparent;
+			cursor: default;
+		}
+
+		&:hover {
+			background-color: rgba(0, 0, 0, 0.04);
+			cursor: pointer;
+		}
+
+		&.selected {
+			background-color: #FFC6504D;
+		}
+
+		.arrow {
+			&::before {
+				position: relative;
+				/* top: 3pt; Uncomment this to lower the icons as requested in comments*/
+				content: '';
+				/* By using an em scale, the arrows will size with the font */
+				display: inline-block;
+				width: 0.4em;
+				height: 0.4em;
+				border-right: 0.20em solid #FFC85E;
+				border-top: 0.20em solid #FFC85E;
+			}
+
+			&.left {
+				transform: rotate(-135deg) translate(-50%);
+			}
+
+			&.right {
+				transform: rotate(45deg);
+			}
+		}
+
+		&.disabled {
+			pointer-events: none;
+			opacity: 0.5;
+
+			.arrow::before {
+				border-right: 0.20em solid #FFC85E;
+				border-top: 0.20em solid #FFC85E;
+			}
+
+			&:hover {
+				background-color: transparent;
+				cursor: default;
+			}
+		}
+	}
+}
