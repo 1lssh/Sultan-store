@@ -11,6 +11,7 @@ import basket from '../source/icons/basket.png'
 import { Link } from 'react-router-dom'
 import { PriceListBtn } from './PriceListBtn'
 import { useAppSelector } from '../hook'
+import { Nav } from './Nav'
 
 
 function Header() {
@@ -50,14 +51,7 @@ function Header() {
 					</div>
 				</div>
 				<div className="header__nav">
-					<nav>
-						<ul className='header__nav-list'>
-							<li className='header__nav-item' >О компании</li>
-							<li className='header__nav-item' >Доставка и оплата</li>
-							<li className='header__nav-item' >Возврат</li>
-							<li className='header__nav-item' >Контакты</li>
-						</ul>
-					</nav>
+					<Nav />
 				</div>
 			</div>
 			<div className="row-full"></div>
@@ -111,7 +105,7 @@ function Header() {
 				<div className="header__basket">
 
 					<div className='header__basket-icon'>
-						<Link to={'/basket'} className='link'>
+						<Link data-testid="basket-page-link" to={'/basket'} className='link'>
 							<img src={basket} alt="" />
 							<span>{totalQuantity}</span>
 						</Link>

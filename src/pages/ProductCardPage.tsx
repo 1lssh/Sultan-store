@@ -32,7 +32,7 @@ export const ProductCardPage: FC = () => {
 
 	const dispatch = useAppDispatch()
 	return (
-		<div>
+		<div data-testid='product-card-page'>
 			{
 				currentProduct.map(item => {
 					return (
@@ -48,7 +48,6 @@ export const ProductCardPage: FC = () => {
 			}
 			{currentProduct.map((item: any) => {
 				return (
-
 					<div className='product' key={item.barcode}>
 						<div className="product__img">
 							<img src={item.url} alt="" />
@@ -73,9 +72,9 @@ export const ProductCardPage: FC = () => {
 								</div>
 								<div className="product__count">
 									<div className="item-count">
-										<button onClick={decreaseCounter}>-</button>
-										<span>{counter} </span>
-										<button onClick={increaseCounter}>+</button>
+										<button data-testid='decrement' onClick={decreaseCounter}>-</button>
+										<span data-testid='counter'>{counter}</span>
+										<button data-testid='increment' onClick={increaseCounter}>+</button>
 									</div>
 								</div>
 								<div

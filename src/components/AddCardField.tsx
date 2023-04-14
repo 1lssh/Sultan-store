@@ -75,14 +75,10 @@ export const AddCardField: FC<IaddCardFieldProps> = (props) => {
 	const dispatch = useAppDispatch()
 
 
-
-
-
 	return (
-		<div>
-
-			<div className="add-field">
-				<div>
+		<div >
+			<div data-testid='add-field-elem' className="add-field">
+				<div >
 					<div className='add-field__title' >Изображение</div>
 					<input value={url} onChange={urlChange} type="text" />
 				</div>

@@ -905,15 +905,15 @@
 .catalog__sidebar-title {
   margin-top: 10px;
 }
-.catalog__sidebar-care-filter {
+.catalog__sidebar-care-filter-options {
   margin-bottom: 10px;
   padding: 5px;
 }
-.catalog__sidebar-care-filter.active {
+.catalog__sidebar-care-filter-options.active {
   border: #FFC85E 2px solid;
   padding: 3px;
 }
-.catalog__sidebar-care-filter input {
+.catalog__sidebar-care-filter-options input {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;

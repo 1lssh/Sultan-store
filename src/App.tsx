@@ -25,7 +25,6 @@ function App() {
 					<Route index element={<CatalogPage />} />
 					<Route path='/basket' element={<BasketPage />} />
 				</Route>
-
 			</Routes>
 		</>
 

@@ -12,7 +12,7 @@ export const BasketPage: FC = (props) => {
 	const dispatch = useAppDispatch()
 
 	return (
-		<div className="basket">
+		<div data-testid="basket-page" className="basket">
 			<div className="breadcrumb">
 				<div className='breadcrumb__item'>Главная</div>
 				<div className='vertical-line-sm'></div>

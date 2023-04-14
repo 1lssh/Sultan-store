@@ -11,6 +11,7 @@ import del from '../source/icons/close.png'
 import { MultiSelectDropdown } from './MultiSelectdropdown';
 import complete from '../source/icons/completed.png'
 import editIcon from '../source/icons/pencil.png'
+import { ChangebleCardField } from './ChangebleCardField';
 
 
 interface IGoodsCardProps {
@@ -71,8 +72,7 @@ export const GoodsCard: FC<IGoodsCardProps> = (props) => {
 	}
 
 	return (
-		<div className='good-card'>
-
+		<div data-testid='product-card' className='good-card'>
 			{
 				edit ? <img className='edit-confirm' onClick={confirmEdit} src={complete} alt="" /> :
 					<img
@@ -82,7 +82,7 @@ export const GoodsCard: FC<IGoodsCardProps> = (props) => {
 						alt="edit"
 					/>
 			}
-			<img onClick={() => dispatch(deleteProduct(props.barcode))} src={del} alt="" className="good-card__del" />
+			<img data-testid='img' onClick={() => dispatch(deleteProduct(props.barcode))} src={del} alt="" className="good-card__del" />
 			<div className="good-card__main">
 
 				<div className='good-card__img'>
@@ -110,31 +110,35 @@ export const GoodsCard: FC<IGoodsCardProps> = (props) => {
 							:
 							<input value={title} onChange={(e) => setTitle(e.currentTarget.value)} type='text' />
 					}
-
 				</div>
-
 			</div>
 			<div className="good-card__description">
 				<div className='good-card__barcode card-description'>
 					<span>Штрихкод:</span>
-					{
-						!edit ? props.barcode
-							: <input value={newBarcode} onChange={(e) => setNewBarcode(e.currentTarget.value)} type='text' />
-					}
+					<ChangebleCardField
+						info={props.barcode}
+						edit={edit}
+						newInfo={newBarcode}
+						setNewInfo={setNewBarcode}
+					/>
 				</div>
 				<div className='good-card__manufacturer card-description'>
 					<span>Производитель:</span>
-					{
-						!edit ? props.manufacturer
-							: <input value={manufacturer} onChange={(e) => setManufacturer(e.currentTarget.value)} type='text' />
-					}
+					<ChangebleCardField
+						info={props.manufacturer}
+						edit={edit}
+						newInfo={manufacturer}
+						setNewInfo={setManufacturer}
+					/>
 				</div>
 				<div className='good-card__brand card-description'>
 					<span>Бренд:</span>
-					{
-						!edit ? props.brand
-							: <input value={brand} onChange={(e) => setBrand(e.currentTarget.value)} type='text' />
-					}
+					<ChangebleCardField
+						info={props.brand}
+						edit={edit}
+						newInfo={brand}
+						setNewInfo={setBrand}
+					/>
 				</div>
 				<div className='good-card__brand card-description'>
 					<span>Тип ухода:</span>
@@ -146,13 +150,15 @@ export const GoodsCard: FC<IGoodsCardProps> = (props) => {
 			</div>
 			<div className="good-card__to-basket">
 				<div className='good-card__price'>
-					{
-						!edit ? props.price
-							: <input value={price} onChange={(e) => setPrice(+e.currentTarget.value)} type='number' />
-					}
+					<ChangebleCardField
+						info={props.price}
+						edit={edit}
+						newInfo={price}
+						setNewInfo={setPrice}
+					/>
 					₸
 				</div>
-				<div onClick={() => dispatch(addToBasket(product))}>
+				<div data-testid='to-baket-btn' onClick={() => dispatch(addToBasket(product))}>
 					<ToBasketBtn />
 				</div>
 

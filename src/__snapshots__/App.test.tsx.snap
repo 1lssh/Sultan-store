@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing components to basket button snapshot 1`] = `
+<button>
+  В корзину 
+  <img
+    alt="basket"
+    src="card-basket.png"
+  />
+</button>
+`;
