@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Sultan-store/static/css/main.b594fd8e.css",
-    "main.js": "/Sultan-store/static/js/main.fd8bceb8.js",
-    "static/js/787.5c657a58.chunk.js": "/Sultan-store/static/js/787.5c657a58.chunk.js",
-    "index.html": "/Sultan-store/index.html",
-    "main.b594fd8e.css.map": "/Sultan-store/static/css/main.b594fd8e.css.map",
-    "main.fd8bceb8.js.map": "/Sultan-store/static/js/main.fd8bceb8.js.map",
-    "787.5c657a58.chunk.js.map": "/Sultan-store/static/js/787.5c657a58.chunk.js.map"
+    "main.css": "/static/css/main.b594fd8e.css",
+    "main.js": "/static/js/main.eeaa51e6.js",
+    "static/js/787.5c657a58.chunk.js": "/static/js/787.5c657a58.chunk.js",
+    "index.html": "/index.html",
+    "main.b594fd8e.css.map": "/static/css/main.b594fd8e.css.map",
+    "main.eeaa51e6.js.map": "/static/js/main.eeaa51e6.js.map",
+    "787.5c657a58.chunk.js.map": "/static/js/787.5c657a58.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b594fd8e.css",
-    "static/js/main.fd8bceb8.js"
+    "static/js/main.eeaa51e6.js"
   ]
 }
