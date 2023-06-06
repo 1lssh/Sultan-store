@@ -63,22 +63,25 @@ function Header() {
 
 				</div>
 				<div className="header__logo">
-					<Link to={'/'} ><img src={logo} alt="logo" /></Link>
+					<Link to={'/sultan-store/'} ><img src={logo} alt="logo" /></Link>
 				</div>
 				<div className="header__catalog">
-					<button>
-						<img
-							className='header__catalog-img-mobile'
-							src={catalogMobile}
-							alt=""
-						/>
-						Каталог
-						<img
-							className='header__catalog-img'
-							src={catalog}
-							alt="catalog"
-						/>
-					</button>
+					<Link className='link' to={'/sultan-store/'} >
+						<button>
+							<img
+								className='header__catalog-img-mobile'
+								src={catalogMobile}
+								alt=""
+							/>
+							Каталог
+							<img
+								className='header__catalog-img'
+								src={catalog}
+								alt="catalog"
+							/>
+						</button>
+					</Link>
+
 				</div>
 				<div className="vertical-line-sm"></div>
 				<div className="header__search">
@@ -102,20 +105,20 @@ function Header() {
 
 				<div className="vertical-line"></div>
 
-				<div className="header__basket">
-
-					<div className='header__basket-icon'>
-						<Link data-testid="basket-page-link" to={'/basket'} className='link'>
+				<Link data-testid="basket-page-link" className='link' to={'/sultan-store/basket'} >
+					<div className="header__basket">
+						<div className='header__basket-icon'>
 							<img src={basket} alt="" />
 							<span>{totalQuantity}</span>
-						</Link>
-					</div>
-					<div className='header__basket-info' >
-						<div className='header__basket-title'>Корзина</div>
-						<div className='header__basket-price'>{totalPrice} ₸</div>
-					</div>
+						</div>
+						<div className='header__basket-info' >
+							<div className='header__basket-title'>Корзина</div>
+							<div className='header__basket-price'>{totalPrice} ₸</div>
+						</div>
 
-				</div>
+					</div>
+				</Link>
+
 				<div className="header__mobile-row">
 					<div className="row-full"></div>
 				</div>

@@ -28,7 +28,7 @@ export const BasketItem: FC<IBasketItemProps> = (props) => {
 			<div className="basket__item">
 				<div className="basket__item-main">
 					<div className="basket__item-img">
-						<Link to={`/${props.barcode}`}>
+						<Link to={`/sultan-store/${props.barcode}`}>
 							<img src={props.url} alt="" />
 						</Link>
 					</div>
@@ -41,7 +41,7 @@ export const BasketItem: FC<IBasketItemProps> = (props) => {
 							{props.weight}
 						</div>
 						<div className="basket__item-title">
-							<Link className='link' to={`/${props.barcode}`}>
+							<Link className='link' to={`/sultan-store/${props.barcode}`}>
 								{props.brand} {props.title}
 							</Link>
 						</div>

@@ -86,7 +86,7 @@ export const GoodsCard: FC<IGoodsCardProps> = (props) => {
 			<div className="good-card__main">
 
 				<div className='good-card__img'>
-					<Link to={`/${props.barcode}`}>
+					<Link to={`${props.barcode}`}>
 						<img src={props.url} alt="" />
 					</Link>
 
@@ -103,7 +103,7 @@ export const GoodsCard: FC<IGoodsCardProps> = (props) => {
 				<div className='good-card__title'>
 					{
 						!edit ?
-							<Link className='link' to={`/${props.barcode}`}>
+							<Link className='link' to={`${props.barcode}`}>
 								<b>{props.brand} </b>
 								{props.title}
 							</Link>
