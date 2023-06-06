@@ -1,4 +1,4 @@
-# Посмотреть можно [тут](https://1lssh.github.io/Sultan-store/)
+# Посмотреть можно [тут](https://1lssh.github.io/sultan-store/)
 
 # Getting Started with Create React App
 
