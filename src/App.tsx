@@ -20,10 +20,10 @@ function App() {
 	return (
 		<>
 			<Routes>
-				<Route path='/' element={<Layout />}>
-					<Route path=':id' element={<ProductCardPage />} />
+				<Route path='/sultan-store' element={<Layout />}>
+					<Route path='/sultan-store/:id' element={<ProductCardPage />} />
 					<Route index element={<CatalogPage />} />
-					<Route path='/basket' element={<BasketPage />} />
+					<Route path='/sultan-store/basket' element={<BasketPage />} />
 				</Route>
 			</Routes>
 		</>
